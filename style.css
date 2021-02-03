@@ -1,0 +1,61 @@
+body {
+    flex-grow: 0;
+    background-color: cyan;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+header {
+    text-align: center;
+    background-color: magenta;
+    padding: 2em;
+}
+
+footer {
+    background-color: magenta;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+
+p.header {
+    margin-top: -2em;
+}
+
+.container {
+    display: flex;
+}
+
+.main-body{
+    border-top: 20px solid #110e0e;
+    text-align: center;
+    margin-top: 75px;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+.image{
+    color: hsla(0, 0%, 100%, 0.86);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: magenta;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
+
+.article{
+    text-align: center;
+}
+
+.alternate{
+    margin-top: 150px;
+    margin-right: 150px;
+    justify-items: center;
+
+}
